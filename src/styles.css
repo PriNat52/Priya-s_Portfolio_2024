@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Wrapper Class */
+.p-wrapper {
+    position: relative;
+}
+
+.p-wrapper::before {
+    content: "";
+    background-image: url(./assets/pink-watercolor.jpg);
+    /* #f96205; rgb(181, 90, 90) f18633*/
+    height: 150vh;
+    width: 500vw;
+    position: absolute;
+    z-index: -1;
+    overflow: auto;
+}

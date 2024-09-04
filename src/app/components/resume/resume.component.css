@@ -1,0 +1,31 @@
+.profile {
+  background-image: url(../../../assets/portrait-p.png);
+  height: 415px;
+  width: 313px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 11em;
+  border: #989898 solid 2px;
+}
+
+.p-tag {
+  background: #989898;
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.3em;
+  font-size: 1em;
+}
+
+.p-des {
+  color: #acacac;
+  width: 80%;
+}
+
+.container{
+  display: inline-flex !important;
+}
+
+.container_1, .container_2{
+  padding: 100px;
+}

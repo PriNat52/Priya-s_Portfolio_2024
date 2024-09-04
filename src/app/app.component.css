@@ -1,0 +1,26 @@
+.menu {
+  text-align: center !important;
+}
+
+.span {
+  font-size: 2.5rem;
+}
+
+.tabs {
+  display: inline-flex !important;
+}
+
+.home, .about, .experience, .reach{
+  padding-inline: 35px;
+  font-size: 27px;
+}
+
+div p:hover::after, div p.is-active::after{
+  content: '';
+  height: 9px;
+  position: absolute;
+  left: 1px;
+  z-index: -1;
+  bottom: 0;
+  right: -3px;
+}
