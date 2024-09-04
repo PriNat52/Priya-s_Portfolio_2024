@@ -1,7 +1,7 @@
 <section class="p-wrapper">
   <div class="container menu">
     <div class="col-sm-7">
-      <div class="row">
+      <div class="name">
         <span title="Menu" class="span">
           <label [routerLink]="['/home']"> <b><i>PRIYA</i></b> Gnanasekaran </label>
         </span><br />
@@ -14,5 +14,5 @@
       <p [routerLink]="['/feedback']" [routerLinkActive]="['is-active']" class="reach">Reach</p>
     </div>
   </div>
-  <app-resume></app-resume>
+  <router-outlet></router-outlet>
 </section>

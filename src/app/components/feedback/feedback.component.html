@@ -1,0 +1,131 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="contact">
+          <div class="labels">
+            <h4><mat-icon>face</mat-icon><u> Reach Me </u></h4>
+          </div>
+          <br />
+          <h5><mat-icon>mail</mat-icon> Email: </h5>
+          <p class="p-des mt-3 mb-4">{{official}}</p>
+
+          <h5><mat-icon>call</mat-icon> Phone:</h5>
+          <p class="p-des mt-3 mb-4">{{phone}}</p>
+          <!-- <form [formGroup]="contact" validate (ngSubmit)="onSubmit()" netlify>
+            <div class="form-row p-frow">
+              <div class="col-md-6 mb-3">
+                <mat-form-field class="form-field" appearance="fill">
+                  <label><mat-icon>face</mat-icon><b> Email</b></label>
+                  <input
+                    #emailInput
+                    matInput
+                    placeholder="Email"
+                    formControlName="email"
+                    class="form-control"
+                  />
+                  <mat-icon
+                    matSuffix
+                    class="block"
+                    *ngIf="this.email?.invalid && this.email?.touched"
+                    >block</mat-icon
+                  >
+                  <mat-icon matSuffix class="check" *ngIf="this.email?.valid"
+                    >check_circle</mat-icon
+                  >
+                  <div class="form-row">
+                    <mat-hint
+                      *ngIf="
+                        this.email?.untouched &&
+                        this.email?.invalid &&
+                        this.email?.touched
+                      "
+                    >
+                      - Email Required
+                    </mat-hint>
+                    <mat-error
+                      *ngIf="this.email?.invalid && this.email?.touched"
+                    >
+                      Email Invalid
+                    </mat-error>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="form-row p-frow">
+              <div class="col-md-6 mb-3">
+                <mat-form-field class="form-field" appearance="fill">
+                  <label><mat-icon>title</mat-icon><b> Subject</b></label>
+                  <input
+                    matInput
+                    placeholder="Subject"
+                    formControlName="subject"
+                    class="form-control"
+                  />
+                  <div class="form-row">
+                    <mat-hint
+                      *ngIf="
+                        this.subject?.untouched &&
+                        this.subject?.invalid &&
+                        this.subject?.touched
+                      "
+                    >
+                      - Subject Required
+                    </mat-hint>
+                    <mat-error
+                      *ngIf="this.subject?.invalid && this.subject?.touched"
+                    >
+                      Subject Invalid
+                    </mat-error>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <div class="form-row hint">
+              <mat-hint *ngIf="this.subject?.touched && this.subject?.invalid">
+                - Not more than 10 characters
+              </mat-hint>
+            </div>
+
+            <div class="form-row p-frow">
+              <div class="col-md-6 mb-3">
+                <mat-form-field class="form-field" appearance="fill">
+                  <label><mat-icon>add_comment</mat-icon><b> Brief Message</b></label>
+                  <textarea
+                    matInput
+                    placeholder="Ex. Hello there..."
+                    formControlName="message"
+                    class="form-control"
+                  ></textarea>
+                  <div class="form-row">
+                    <mat-hint
+                      *ngIf="
+                        this.message?.untouched &&
+                        this.message?.invalid &&
+                        this.message?.touched
+                      "
+                    >
+                      - Message Required
+                    </mat-hint>
+                    <mat-error
+                      *ngIf="this.message?.invalid && this.message?.touched"
+                    >
+                      Message Invalid
+                    </mat-error>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <div>
+              <button class="btn btn-info" mat-raised-button
+              [disabled]="contact.invalid"
+              *ngIf="!contact.invalid">SEND</button>
+            </div>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

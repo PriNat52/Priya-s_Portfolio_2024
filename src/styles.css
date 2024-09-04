@@ -7,10 +7,9 @@
 
 .p-wrapper::before {
     content: "";
-    background-image: url(./assets/pink-watercolor.jpg);
-    /* #f96205; rgb(181, 90, 90) f18633*/
-    height: 150vh;
-    width: 500vw;
+    background-image: url(./assets/gold-glitter-background-vector.jpg);
+    height: 818px;
+    width: 1515px;
     position: absolute;
     z-index: -1;
     overflow: auto;

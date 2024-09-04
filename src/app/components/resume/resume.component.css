@@ -18,14 +18,20 @@
 }
 
 .p-des {
-  color: #acacac;
+  color: #6c6b6b;
   width: 80%;
 }
 
-.container{
+.container {
   display: inline-flex !important;
 }
 
-.container_1, .container_2{
+.container_1 {
+  padding: 40px;
+  padding-left: 200px;
+}
+
+.container_2 {
   padding: 100px;
+  font-size: x-large;
 }

@@ -1,0 +1,81 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 p-cards">
+        <mat-card class="card">
+          <mat-card-title-group>
+            <mat-card-title><b>Vivox Inc </b><i> - Front End Developer</i></mat-card-title>
+            <mat-card-subtitle><h5>Game Trailers</h5></mat-card-subtitle>
+            <!-- <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" > -->
+          </mat-card-title-group>
+          <mat-card-content>
+            <p>{{description1}}</p>
+
+            <ul class="ul"*ngIf="showDetails1">
+              <hr />
+              <li *ngFor="let i of requirements1">
+                {{ i }}
+              </li>
+            </ul>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="showDetails1 = !showDetails1">
+              <div class="material-icons" *ngIf="showDetails1">expand_less</div>
+              <div class="material-icons" *ngIf="!showDetails1">expand_more</div>
+              Responsibilies
+            </button>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="card">
+          <mat-card-title-group>
+            <mat-card-title><b>Lorusso Heavy Equipment LLC </b><i> - Front End Developer</i></mat-card-title>
+            <mat-card-subtitle><h5>Machine Tracker</h5></mat-card-subtitle>
+            <!-- <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" > -->
+          </mat-card-title-group>
+          <mat-card-content>
+            <p>{{description2}}</p>
+
+            <ul class="ul"*ngIf="showDetails2">
+              <hr />
+              <li *ngFor="let i of requirements2">
+                {{ i }}
+              </li>
+            </ul>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="showDetails2 = !showDetails2">
+              <div class="material-icons" *ngIf="showDetails2">expand_less</div>
+              <div class="material-icons" *ngIf="!showDetails2">expand_more</div>
+              Responsibilies
+            </button>
+          </mat-card-actions>
+        </mat-card>
+        <mat-card class="card">
+          <mat-card-title-group>
+            <mat-card-title><b>PrismHR </b><i> - Software Developer</i></mat-card-title>
+            <mat-card-subtitle><h5>Employee Daily Library</h5></mat-card-subtitle>
+            <!-- <img mat-card-md-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" > -->
+          </mat-card-title-group>
+          <mat-card-content>
+            <p>{{description3}}</p>
+
+            <ul class="ul"*ngIf="showDetails3">
+              <hr />
+              <li *ngFor="let i of requirements3">
+                {{ i }}
+              </li>
+            </ul>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="showDetails3 = !showDetails3">
+              <div class="material-icons" *ngIf="showDetails3">expand_less</div>
+              <div class="material-icons" *ngIf="!showDetails3">expand_more</div>
+              Responsibilies
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>
+

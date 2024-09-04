@@ -1,0 +1,66 @@
+.contact{
+  padding:3%;
+  padding-left: 10%;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 1em;
+  background-color: whitesmoke;
+  border-radius: 0.6em;
+  box-shadow: 0 0 0.5em gray;
+}
+
+p{
+  color: #877f7f;
+  width:80%;
+}
+
+form .p-frow{
+  padding-left: 8%;
+}
+
+form .form-field{
+  width:100%;
+}
+
+form .hint{
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+  font-size: .8em;
+}
+
+mat-hint{
+  font-style: italic;
+  color: gray;
+  text-shadow: 0.01em 0.01em black;
+}
+
+mat-error{
+  color: red;
+}
+
+form .block{
+  color: rgb(221, 96, 96);
+}
+
+form .check{
+  color: green;
+}
+
+.labels{
+  width: 100%;
+  /* margin-left: 10%; */
+  /* padding-left: 15%; */
+  font-size: 1em;
+  background-color: transparent;
+}
+
+form button{
+  width: 40%;
+  height: 2em;
+  text-align: center;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

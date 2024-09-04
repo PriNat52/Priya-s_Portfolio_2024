@@ -1,0 +1,14 @@
+.para{
+  margin-left: 10%;
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: #877f7f;
+  width:80%;
+  background-color: whitesmoke;
+  border-radius: 0.6em;
+  box-shadow: 0 0 0.5em gray;
+}
+
+a{
+  color: #000000;
+}
