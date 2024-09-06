@@ -9,6 +9,8 @@ export class ExperienceComponent implements OnInit {
   description1!: string;
   description2!: string;
   description3!: string;
+  description4!: string;
+
   requirements1 = [`Developed the front end of the application using HTML5, CSS3-SASS, JSON, Angular 8/10.`,
   `Enhanced Angular 8/10 application performance by lazy loading and developed components as an independent module for reusability across the application.`,
   `Used Component based architecture to build components and  UI services.`,
@@ -21,6 +23,7 @@ export class ExperienceComponent implements OnInit {
   `,`Developed data visualizations using chart.js and involved in enhancements of the interactive GUI display.
   `,`Implemented Reactive Form from Angular to design complex table views with data validations.
   `];
+
   requirements3 = [`Worked the back end by using Node Js, Express Js and MongoDB.
   `,`Used Node.js as a proxy to interact with Rest services and interacting with Database.
   `,`Developed Web API using Node.JS and hosted on multiple load balanced API instances.
@@ -30,9 +33,20 @@ export class ExperienceComponent implements OnInit {
   `,`Used GitHub ticketing system and GIT for version control during the development process.
   `];
 
+  requirements4 = [`Actively involved in the requirement gathering phase by participating the sprint planning and user story grooming sessions and analyzed features in each sprint.`,
+    `Collaborated with UX/UI designers to improve user experience across the application and implemented scalable reusable components leveraging best practices with industry standards.`,
+    `Enhanced Angular 11,13,16 application for security vulnerability and  improved performance by lazy loading and developed components as an independent module for reusability across the application.`,
+    `Developed and improvised end to end UI development focusing on micro frontend architecture and modulization with NX along with API integrations and unit testing coverage with Karma/Jasmine and Jest.`,
+    `Collaborated with cross-functional teams including project managers, front end developers and UX/UI designers to gather requirements and ensure seamless integration of micro frontends.`,
+    `Collaborated with QA teams to identify and resolve bugs, ensuring smooth and bug free applications releases across different environments.`,
+    `Implemented customized and Ngx-paginations with sorting directives on the UI.`,
+    `Documented routing structure and component design for all modules along with fixed memory leakage issues with observables.`,
+    `Utilized Bootstrap V4 wherever deemed necessary to configure in-house widgets styling and worked with Postman/Bruno to conduct API tests.`];
+
   showDetails1!: boolean;
   showDetails2!: boolean;
   showDetails3!: boolean;
+  showDetails4!: boolean;
 
   constructor() { }
 
@@ -50,6 +64,11 @@ export class ExperienceComponent implements OnInit {
     It's built modular: API as the Express backend,  database for connecting to the MongoDB Cloud,
     and client for our front-end React application. This library is a simple to use,
     feature rich, and privacy focused note taking application.`;
+
+    this.description4 = `This application was heavily used by small businesses for enrolling 
+    new employees into their organization. It was built with user-friendly experience for customers 
+    to use the app more efficiently and frequently. The authorization management services were focused 
+    on assigning customized features for the users.`;
   }
 
 }

@@ -7,14 +7,16 @@
   background-repeat: no-repeat;
   border-radius: 11em;
   border: #989898 solid 2px;
+  box-shadow: 0 0 0.5em #d4a36f;
 }
 
 .p-tag {
   background: #989898;
   color: #fff;
-  padding: 0.2em 0.5em;
-  border-radius: 0.3em;
-  font-size: 1em;
+  padding: 0.4em 0.2em;
+  border-radius: 0.7em;
+  font-size: 0.8em;
+  margin-right: 0.5em;
 }
 
 .p-des {
@@ -34,4 +36,18 @@
 .container_2 {
   padding: 100px;
   font-size: x-large;
+}
+
+.read_more{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.p-readmore{
+  color: rgb(240, 128, 162);
+}
+
+#name{
+  color: #d4a36f;
+  text-shadow: 0 0 2px rgb(240, 128, 162);
 }

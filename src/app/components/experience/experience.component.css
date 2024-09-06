@@ -1,36 +1,38 @@
 .card {
-  margin-left: 20%;
-  /* width: 100%; */
-  width: calc(100% - 0.1em);
-  font-size: 0.8em;
+  margin-left: 10%;
+  width: 50em;
+  font-size: 1.3em;
   margin-bottom: 8px;
   background-color: whitesmoke;
   border-radius: 0.6em;
-  box-shadow: 0 0 0.5em gray;
+  box-shadow: 0 0 0.5em #d4a36f;
+  padding: 0.4em;
 }
+
 .p-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-top: 5px;
 }
 
 button {
   padding-right: 1em;
   height: 2.5em;
-  background-color: #bf8af0;
+  background-color: #d4a36f;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 0.25em;
   transition: 0.3s;
+  border: 1px #cf8a40 solid;
 }
 
 button:hover{
-  background-color: #bf8af0;
+  background-color: #d4a36f;
   color: white;
-  border: 1px #bf8af0 solid;
-  box-shadow: 0 0 0.5em #bf8af0;
-
+  border: 1px #cf8a40 solid;
+  box-shadow: 0 0 0.5em #d4a36f;
 }
 
 .ul {
@@ -44,4 +46,30 @@ button:hover{
 p{
   color: #877f7f;
   width:80%;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  padding-left: 8px;
+}
+
+h5{
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  padding-left: 8px;
+}
+
+b{
+  padding-left: 8px;
+}
+
+section{
+  margin-top: 4em;
+  margin-left: 7em;
+}
+
+mat-card-actions{
+  justify-content: flex-start;
+}
+
+mat-card-content{
+  padding: 0px;
 }

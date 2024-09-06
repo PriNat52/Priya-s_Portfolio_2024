@@ -14,10 +14,12 @@ export class AboutMeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.about = 'Around 5 years of experience in the software development life cycle in developing and designing web pages, user interfaces for web/desktop using HTML, CSS, Javascript, TypeScript and Angular Framework.';
-    this.me = 'Good understanding and hands-on experience of databases like MongoDB, Oracle and SQL Server.' +
+    this.about = 'Around 7 years of experience in the software development life cycle in developing and designing web pages, user interfaces for web/desktop using HTML, CSS, Javascript, TypeScript and Angular Framework.';
+    this.me = 'Good understanding and hands-on experience of databases like MongoDB, Oracle, Spanner and SQL Server.' +
     ' Profound knowledge in configuration management systems like GitHub and experience working with GitHub, JIRA ticketing systems.';
-    this.team='Excellent interpersonal abilities, communication skills, time management and team skills with an intention to work hard to meet project deadlines.';
+    this.team = 'Excellent interpersonal abilities, communication skills, time management and team skills with an intention to work hard to meet project deadlines.'+
+    ' Collaborated with cross-functional teams including project managers, front-end developers and UX/UI designers to gather requirements and ensure seamless integration of micro frontends.';
+    
   }
 
 }

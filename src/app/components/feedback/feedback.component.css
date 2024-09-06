@@ -1,12 +1,11 @@
 .contact{
-  padding:3%;
-  padding-left: 10%;
-  width: 60%;
-  margin-left: 20%;
-  font-size: 1em;
+  padding: 3%;
+  width: 30%;
+  margin-left: 32%;
+  font-size: 1.3em;
   background-color: whitesmoke;
   border-radius: 0.6em;
-  box-shadow: 0 0 0.5em gray;
+  box-shadow: 0 0 0.5em rgb(240, 128, 162);
 }
 
 p{
@@ -63,4 +62,19 @@ form button{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h5{
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+p{
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  padding-left: 30px;
+}
+
+section{
+  margin-top: 4em;
 }

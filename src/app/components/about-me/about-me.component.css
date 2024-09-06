@@ -1,14 +1,25 @@
 .para{
   margin-left: 10%;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-bottom: 8px;
   color: #877f7f;
   width:80%;
   background-color: whitesmoke;
   border-radius: 0.6em;
-  box-shadow: 0 0 0.5em gray;
+  box-shadow: 0 0 0.5em #d4a36f;
+  padding: 25px;
 }
 
 a{
-  color: #000000;
+  color: rgb(240, 128, 162);
+  text-decoration: solid;
+}
+
+p{
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+
+section{
+  margin-top: 4em;
 }

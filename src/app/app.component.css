@@ -23,13 +23,20 @@
   cursor: pointer;
 }
 
-div p:hover::after,
-div p.is-active::after {
-  content: '';
-  height: 9px;
-  position: absolute;
-  left: 1px;
-  z-index: -1;
-  bottom: 0;
-  right: -3px;
+.home:hover,
+.reach:hover
+ {
+  color: rgb(240, 128, 162);
+}
+
+.about:hover,
+.experience:hover{
+  color: #d4a36f;
+}
+
+i{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170, #3ac0c3, #9fbb37, oklab(0.69 0.18 0.08)); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
 }

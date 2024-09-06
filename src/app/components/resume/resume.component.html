@@ -5,11 +5,15 @@
             </div>
         </div>
         <div class="col-sm-7 container_2">
-            <span class="p-tag">Front-End Angular Developer</span>
-            <h1 class="mt-4">Priya Gnanasekaran</h1>
+            <div>
+                <span class="p-tag">Front-End Angular Developer</span>
+                <span class="p-tag">Software Engineer</span>
+            </div>
+            <h1 class="mt-4" id="name">Priya Gnanasekaran</h1>
             <p class="p-des mt-3 mb-4">{{(longText | slice:0:400)}}</p>
-            <label class="p-readmore" [routerLink]="['/about-me']">Read More <mat-icon
-                    class="readmore ml-2">next_week</mat-icon></label>
+                <label class="p-readmore" [routerLink]="['/about-me']">
+                    Read More <mat-icon class="readmore ml-2">next_week</mat-icon>
+                </label>
         </div>
     </div>
 </section>

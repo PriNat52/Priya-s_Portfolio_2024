@@ -26,8 +26,8 @@ export class FeedbackComponent implements OnInit {
   constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
-    this.official='priya.gnanas28@gmail.com';
-    this.phone = "(978)-282-1184" + " Ext: 7053";
+    this.official='priya.nat52@gmail.com';
+    this.phone = "(978) 549-5705";
     this.contact = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       subject: [
